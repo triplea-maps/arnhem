@@ -407,348 +407,348 @@
     <playerProduction player="Americans" frontier="production"/>
     <playerProduction player="Germans" frontier="production"/>
   </production>
-  <attatchmentList>
-    <attatchment name="unitAttatchment" attatchTo="infantry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+  <attachmentList>
+    <attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="5"/>
       <option name="attack" value="1"/>
       <option name="defense" value="2"/>
       <option name="artillerySupportable" value="true"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="airborne" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="airborne" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="5"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
       <option name="artillerySupportable" value="true"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="mechanized" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="mechanized" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="5"/>
       <option name="attack" value="2"/>
       <option name="defense" value="3"/>
       <option name="canBlitz" value="true"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="truck" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="truck" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="5"/>
       <option name="attack" value="0"/>
       <option name="defense" value="0"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="artillery" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="5"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
       <option name="artillery" value="true"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="armour" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="armour" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="5"/>
       <option name="canBlitz" value="true"/>
       <option name="attack" value="3"/>
       <option name="defense" value="3"/>
       <option name="canBlitz" value="true"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="fighter" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="20"/>
       <option name="isAir" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="0"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="bomber" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="20"/>
       <option name="isAir" value="true"/>
       <option name="attack" value="4"/>
       <option name="defense" value="0"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="aaGun" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="aaGun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isAA" value="true"/>
       <option name="movement" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N1" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N3" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N4" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N5" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N6" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N7" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N8" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N8" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N9" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N10" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N11" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N12" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N12" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N13" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N13" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N14" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N14" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N15" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N15" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N16" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N16" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N17" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N17" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N18" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N18" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N19" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N19" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N20" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N20" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N21" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N21" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N22" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N22" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N23" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N23" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N24" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N24" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N25" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N25" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N26" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N26" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N27" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N27" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N28" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N28" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N29" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N29" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N30" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N30" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N31" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N31" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N32" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N32" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N33" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N33" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N34" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N34" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N35" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N35" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N36" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N36" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N37" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N37" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N38" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N38" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N39" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N39" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N40" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N40" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N41" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N41" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N42" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N42" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N43" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N43" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N44" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N44" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N45" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N45" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N46" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N46" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N47" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N47" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N48" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N48" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N49" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N49" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N50" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N50" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N51" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N51" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N52" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N52" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N53" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N53" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N54" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N54" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N55" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N55" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N56" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N56" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N57" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N57" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N58" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N58" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N59" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N59" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N60" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N60" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N61" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N61" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N62" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N62" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N63" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N63" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N64" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N64" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N65" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N65" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N66" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N66" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N67" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N67" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N68" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N68" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N69" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N69" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N70" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N70" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="N71" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="N71" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Arnhem" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Arnhem" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="capital" value="Germans"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Eindhoven" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Eindhoven" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Nijmegen" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Nijmegen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="1st Reinforcements" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="1st Reinforcements" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="capital" value="British"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="82nd Reinforcements" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="82nd Reinforcements" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="capital" value="Americans"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="101st Reinforcements" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="101st Reinforcements" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="H.Q." javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="H.Q." javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Uden" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Uden" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Valkenswaard" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Valkenswaard" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Roermond" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Roermond" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Best" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Best" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Groesbeek" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Groesbeek" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Oosterbeek" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Oosterbeek" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Bennekom" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bennekom" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Ede" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Ede" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Helmond" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Helmond" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Gemert" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Gemert" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Grave" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Grave" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Schijndel" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Schijndel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Veghel" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Veghel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Hertogenbosch" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Hertogenbosch" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Wageningen" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Wageningen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Apeldoorn" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Apeldoorn" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-  </attatchmentList>
+    </attachment>
+  </attachmentList>
   <initialize>
     <ownerInitialize>
       <!-- British Owned Territories -->
