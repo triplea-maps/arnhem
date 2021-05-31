@@ -1,0 +1,3 @@
+map_name: arnhem
+games:
+- {game_name: Arnhem, file_name: Arnhem.xml}
